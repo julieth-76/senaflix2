@@ -6,7 +6,6 @@ body {
 }
 .container-caja1{
     height: 50px;
-    background-color: chocolate;
     margin-top: 15px;
 
 
@@ -14,7 +13,6 @@ body {
 }
 .container-caja2{
   height: 100%;
-  background-color: coral;
   margin-top: 15px;
 }
 
@@ -27,12 +25,13 @@ body {
   div.gallery {
     border: 1px solid #ccc;
     margin-left: 100px;
-    background-color: brown;
+    background-color: coral;
   }
   
   div.gallery:hover {
     border: 1px solid #777;
     margin-left: 100px;
+    background-color: coral;
   }
   
   div.gallery img {
@@ -45,6 +44,7 @@ body {
     text-align: center;
     color: white;
     margin-left: 10px;
+    background-color: coral;
   }
   
   .responsive {
@@ -57,14 +57,16 @@ body {
     .responsive {
       width: 49.99999%;
       margin: 6px 0;
-      margin-left: 10px;
+      margin-left: 100%;
+      background-color: coral;
     }
   }
   
   @media only screen and (max-width: 500px) {
     .responsive {
       width: 100%;
-      margin-left: 10px;
+      margin-left: 100%;
+      background-color: coral;
     }
   }
   
@@ -115,6 +117,12 @@ body {
   align-content: space-around;
   margin-left: 50%;
   font-family:cursive;
+}
+.color{
+  color: orange;
+}
+.color2{
+  color: chocolate;
 }
 
 
